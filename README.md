@@ -136,8 +136,8 @@ Under Linux, insert an unused SD card. Assuming the SD card takes device
 $ sudo dd if=build/tmp/deploy/images/iot2000/iot2000-example-image-iot2000.wic \
           of=/dev/mmcblk0 bs=4M oflag=sync
 ```
-
-The example image starts with the IP 192.168.200.1 preconfigured on the first
+# JC 20230415 changed IP address
+The example image starts with the IP 192.168.1.60 preconfigured on the first
 Ethernet interface. You can use ssh to connect to the system.
 
 The BSP image does not configure the network. If you want to ssh into the

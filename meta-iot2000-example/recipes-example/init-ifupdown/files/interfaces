@@ -5,9 +5,10 @@ auto lo
 iface lo inet loopback
 
 # Wired interfaces
+# JC 20230415 changed IP address
 auto eth0
 iface eth0 inet static
-	address 192.168.200.1
+	address 192.168.1.60
 	netmask 255.255.255.0
 
 auto eth1
