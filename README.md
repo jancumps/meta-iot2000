@@ -56,9 +56,10 @@ $ sudo pip3 install kas
 
 Clone the meta-iot2000 repository (or unpack an archive of it) into a work
 directory:
-
+# JC 20230415 point to my clone
 ```shell
-$ git clone https://github.com/siemens/meta-iot2000
+~~$ git clone https://github.com/siemens/meta-iot2000~~
+$ git clone https://github.com/jancumps/meta-iot2000.git
 ```
 
 Now you can build the example image like this:
